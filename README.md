@@ -37,24 +37,29 @@ Targeted areas to invest in:
 ![image.png](pic4.png)
 
 
-## The Model
+## Time series data inspection
 
+The timeseries data must first be converted into a stationarity dataset.  A 2x difference is performed in order to achieve stationarity.
 
+![image.png](pic5.png)
+
+With the stationary dataset, the autocorrelation and partial autocorrelation functions are used to determind model parameters.
+
+![image.png](pic8.png)
 
 #### ARIMA Model
 
-The arima Model was used to train the model, the model performed well with the following results:
+The order of the model can be ontained by inspection of the plots above, for a 2x difference (d = 2). The autocorrelation fucntion is used to determine p, from the trends the first value within the tollerance is 4. The partial autocorrelation fucntion is used to determine q, from the trends the first value within the tollerance is 3. There is no seasonality and therefore we set those terms to 0.
 
+![image.png](pic8.png)
 
 ## Conclusion
 
-The key top features used to determind if a water well is functional are:
-* LGA
-* Region
-* Payment
-* Management
-* Population
-* Age
+![image.png](pic9.png)
+
+![image.png](pic10.png)
+
+The forecasted results yield an 80% confidence shows an increasing property value over the course of the next 2 years.  Endorse investing in these targeted zip codes.
 
 ## Future Work
 
@@ -66,10 +71,7 @@ Introducting external data to the dataset
 * Current dataset does not include how the COVID-19 has impacted the market, extend dataset to more recent timeframes for analysis.
 * Adding additional external data to the model, ie number of permits issued by NYC DoB
  
-* Natural disaster data - Earthquakes, floors, droughts
-
-#### Multiclassification Model
-To provide future finance allocation by predicting timeframes a well may need repair or how to increase the probability of a long lasting water well for future construction projects.
+![image.png](pic11.png)
 
 
 #### References
