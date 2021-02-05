@@ -45,13 +45,13 @@ The timeseries data must first be converted into a stationarity dataset.  A 2x d
 
 With the stationary dataset, the autocorrelation and partial autocorrelation functions are used to determind model parameters.
 
-![image.png](pic8.png)
+![image.png](pic6.png)
 
 #### ARIMA Model
 
 The order of the model can be ontained by inspection of the plots above, for a 2x difference (d = 2). The autocorrelation fucntion is used to determine p, from the trends the first value within the tollerance is 4. The partial autocorrelation fucntion is used to determine q, from the trends the first value within the tollerance is 3. There is no seasonality and therefore we set those terms to 0.
 
-![image.png](pic8.png)
+![image.png](pic7.png)
 
 ## Conclusion
 
