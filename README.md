@@ -55,11 +55,15 @@ The order of the model can be ontained by inspection of the plots above, for a 2
 
 ## Conclusion
 
+The ARIMA model obtained for our time series analysis can now be used to predict values on our data as a means to evaluate the accuracy of the model.  From the trends below, one may notice the forcasted housing prices overlay the actual values, indicating the model fit accurately to the data.
+
 ![image.png](pic9.png)
+
+The ARIMA model can also be used to forecast future values beyond the time series time interval.  This is especially helpful to help identify an action one may take based on data.  In this case, on may notice, the forecasted results yield an 80% confidence shows an increasing property value over the course of the next 2 years.  Endorse investing in these targeted zip codes.
 
 ![image.png](pic10.png)
 
-The forecasted results yield an 80% confidence shows an increasing property value over the course of the next 2 years.  Endorse investing in these targeted zip codes.
+In this project, the ARIMA model was used to fit data to the time series of zillow housing prices.  Although, limited with limited data points, the model produced  favorable investment results with a high level of confidence.  
 
 ## Future Work
 
