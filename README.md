@@ -17,8 +17,7 @@ Through rigorous data exploration, the objective was to identify key areas to wh
 
 The graph below shows the percent change for each state from 1996 to 2018
 
-![image.png](https://github.com/NickCatalano14/dsc-mod-3-project-v2-1-onl01-dtsc-pt-052620/blob/926ba615ca7cfbad739699199600fa70c57b950e/water_source_bar_chart_1.png?raw=true)
-
+![image.png](pic_1.png)
 
 
 ## The Model
