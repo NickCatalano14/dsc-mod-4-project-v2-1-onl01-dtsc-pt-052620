@@ -19,6 +19,22 @@ The graph below shows the percent change for each state from 1996 to 2018
 
 ![image.png](pic_1.png)
 
+After inspection on the nations map, the targeted area to focus on is identified as New York City.  A similar analysis was performed on the zillow data set for the 5 boroughs of NYC.  Below is a map showing the overall growth of these boroughs from 1996 to 2018 and their trends:
+
+![image.png](pic_2.png)
+
+![image.png](pic_8.png)
+
+In order to identify which zip codes to target for the modeling process, the data is split from by borough to by zipcodes within the boroughs.  From the map below one may notice the following:
+1.  Manhattan zip codes are limited with data.  Manhattan will be excluded from the analysis as it is typically over developed and very expensive.
+2.  Locations around highly upcoming neighborhoods, such as near the Barclay have shown great growth.
+3.  The areas of interest are those zipcodes just outside the zone of rapic growth.
+
+![image.png](pic_3.png)
+
+Targeted areas to invest in:
+![image.png](pic_4.png)
+
 
 ## The Model
 
